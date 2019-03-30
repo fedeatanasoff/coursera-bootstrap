@@ -1,0 +1,21 @@
+{
+  "name": "bootstrap-coursera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "lite-server": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://fedeatanasoff@bitbucket.org/fedeatanasoff/bootstrap-coursera.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/fedeatanasoff/bootstrap-coursera#readme"
+}

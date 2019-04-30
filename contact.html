@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
-      name="viewport"
+      id="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
@@ -60,6 +60,98 @@
           <li class="breadcrumb-item active" aria-current="page">Contacto</li>
         </ol>
       </nav>
+    </div>
+
+    <!-- CONTENIDO -->
+    <div class="row">
+      <div class="container">
+        <h6 class="text-center my-5">
+          ante cualquier duda complete el siguiente formulario
+        </h6>
+        <form>
+          <!-- NOMBRE -->
+          <div class="form-row">
+            <div class="col-sm-6">
+              <label for="nombre">Nombre</label>
+              <input
+                type="text"
+                id="nombre"
+                class="form-control"
+                placeholder="escriba su nombre"
+              />
+            </div>
+
+            <!-- APELLIDO -->
+            <div class="col-sm-6">
+              <label for="apellido">Apellido</label>
+              <input
+                type="text"
+                id="apellido"
+                class="form-control"
+                placeholder="escriba su apellido"
+              />
+            </div>
+          </div>
+
+          <!-- EMAIL -->
+          <div class="form-group mt-3">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              class="form-control"
+              type="text"
+              placeholder="ingrese un email"
+            />
+          </div>
+
+          <!-- DIRECCION -->
+          <div class="form-row">
+            <div class="form-group col-sm-8">
+              <label for="direccion">Direccion</label>
+              <input
+                id="direccion"
+                class="form-control"
+                type="text"
+                placeholder="ingrese aqui su direccion"
+              />
+            </div>
+
+            <!-- PROVINCIA -->
+            <div class="form-group col-sm-4">
+              <label for="provincia">Provincia</label>
+              <select class="custom-select" id="provincia">
+                <option selected>Buenos Aires</option>
+                <option>Entre Rios</option>
+                <option>Misiones</option>
+                <option>Tierra del Fuego</option>
+                <option>San Luis</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- MENSAJE -->
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea
+              class="form-control"
+              id="mensaje"
+              rows="3"
+              placeholder="escriba aqui su mensaje"
+            ></textarea>
+          </div>
+
+          <!-- CHECKBOX -->
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="terminos" />
+            <label class="form-check-label" for="terminos"
+              >acepto los terminos</label
+            >
+          </div>
+
+          <!-- BOTON SUBMIT -->
+          <button type="submit" class="btn btn-secondary">Enviar</button>
+        </form>
+      </div>
     </div>
 
     <footer class="mt-5">

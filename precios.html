@@ -13,15 +13,25 @@
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="node_modules\@fortawesome\fontawesome-free\css\all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules\open-iconic\font\css\open-iconic-bootstrap.min.css"
+    />
     <link rel="stylesheet" href="css/main.css" />
 
     <title>Hoteles - Precios</title>
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="./index.html">Hoteles</a>
+        <a class="navbar-brand" href="./index.html"
+          ><i class="fas fa-h-square"></i>oteles</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -40,7 +50,7 @@
               <a class="nav-link" href="./index.html">Home </a>
             </li>
             <li class="nav-item  ">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="./about">About</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#">Precios</a>
@@ -54,7 +64,7 @@
     </nav>
 
     <!-- JUMBOTRON -->
-    <div class="jumbotron">
+    <div class="jumbotron mt-5">
       <div class="container">
         <h1 class="display-4">Precios</h1>
       </div>
@@ -74,7 +84,7 @@
     <div class="container table-responsive">
       <table class="table table-striped">
         <thead class="thead-dark">
-          <th>Calidad</th>
+          <th>Estrellas</th>
           <th>Miramar</th>
           <th>Villa Gesell</th>
           <th>Monte Hermoso</th>
@@ -82,25 +92,35 @@
         </thead>
         <tbody>
           <tr>
-            <td>3 Estrellas</td>
-            <td>$ 200</td>
-            <td>$ 180</td>
-            <td>$ 220</td>
-            <td>$ 210</td>
+            <td>
+              <span class="oi oi-star"></span><span class="oi oi-star"></span
+              ><span class="oi oi-star"></span>
+            </td>
+            <td><span class="oi oi-dollar"></span> 200</td>
+            <td><span class="oi oi-dollar"></span> 180</td>
+            <td><span class="oi oi-dollar"></span> 220</td>
+            <td><span class="oi oi-dollar"></span> 210</td>
           </tr>
           <tr>
-            <td>4 Estrellas</td>
-            <td>$ 300</td>
-            <td>$ 380</td>
-            <td>$ 290</td>
-            <td>$ 299</td>
+            <td>
+              <span class="oi oi-star"></span><span class="oi oi-star"></span
+              ><span class="oi oi-star"></span><span class="oi oi-star"></span>
+            </td>
+            <td><span class="oi oi-dollar"></span> 300</td>
+            <td><span class="oi oi-dollar"></span> 380</td>
+            <td><span class="oi oi-dollar"></span> 290</td>
+            <td><span class="oi oi-dollar"></span> 299</td>
           </tr>
           <tr>
-            <td>5 Estrellas</td>
-            <td>$ 400</td>
-            <td>$ 580</td>
-            <td>$ 420</td>
-            <td>$ 510</td>
+            <td>
+              <span class="oi oi-star"></span><span class="oi oi-star"></span
+              ><span class="oi oi-star"></span><span class="oi oi-star"></span
+              ><span class="oi oi-star"></span>
+            </td>
+            <td><span class="oi oi-dollar"></span> 400</td>
+            <td><span class="oi oi-dollar"></span> 580</td>
+            <td><span class="oi oi-dollar"></span> 420</td>
+            <td><span class="oi oi-dollar"></span> 510</td>
           </tr>
         </tbody>
       </table>

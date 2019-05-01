@@ -7,7 +7,6 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -17,12 +16,17 @@
       rel="stylesheet"
       href="node_modules\@fortawesome\fontawesome-free\css\all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="node_modules\open-iconic\font\css\open-iconic-bootstrap.min.css"
+    />
     <link rel="stylesheet" href="css/main.css" />
 
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- NAVEGACION -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#"
           ><i class="fas fa-h-square"></i>oteles</a
@@ -57,25 +61,44 @@
         </div>
       </div>
     </nav>
-    <div class="jumbotron">
+    <!-- JUMBOTRON -->
+    <div class="jumbotron mt-5 mb-0">
       <div class="container">
         <h1 class="display-4">Hoteles</h1>
       </div>
     </div>
 
+    <!-- BANNER -->
+    <div class="banner mb-5">
+      <img src="img/banner.jpg" class="img-fluid " alt="Responsive image" />
+    </div>
+
+    <!-- PRODUCTOS -->
     <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <h2>Producto 1</h2>
-          <p>Caracteristicas a definir del producto 1</p>
+      <div class="row mb-5">
+        <div class="col-sm-4 text-center">
+          <h2 class="">Medios de Pago</h2>
+          <h1><i class="fas fa-credit-card text-info"></i></h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas
+            adipisci laudantium a!
+          </p>
         </div>
-        <div class="col-sm-4">
-          <h2>Producto 2</h2>
-          <p>Caracteristicas a definir del producto 2</p>
+        <div class="col-sm-4 text-center">
+          <h2 class="">Servicios</h2>
+          <h1><i class="fas fa-cocktail text-info"></i></h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde,
+            pariatur dolores? Sit.
+          </p>
         </div>
-        <div class="col-sm-4">
-          <h2>Producto 3</h2>
-          <p>Caracteristicas a definir del producto 3</p>
+        <div class="col-sm-4 text-center">
+          <h2 class="">Conectividad</h2>
+          <h1><i class="fas fa-wifi text-info"></i></h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum,
+            molestiae soluta.
+          </p>
         </div>
       </div>
 
@@ -233,6 +256,8 @@
         </div>
       </div>
     </div>
+
+    <!-- FOOTER -->
     <footer class="mt-5">
       <div class="row">
         <div class="col-sm-4 d-flex flex-column align-items-start ">

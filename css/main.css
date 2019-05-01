@@ -16,11 +16,21 @@ footer a {
 }
 
 .card-hotel {
-  background-color: hotpink;
-  flex: 1 150px;
-  padding: 5px;
-  margin: 5px;
   display: flex;
+  flex: 1 250px;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.btn-reserva {
+  border-radius: 0;
+}
+
+/* .card {
+  border: 2px solid #000000;
+} */
+
+.imagen {
+  /* height: 200px; */
+  width: 100%;
 }

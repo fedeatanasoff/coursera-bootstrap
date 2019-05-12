@@ -26,6 +26,7 @@
     <title>Hoteles - About</title>
   </head>
   <body>
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
         <a class="navbar-brand" href="./index.html"
@@ -61,11 +62,13 @@
         </div>
       </div>
     </nav>
+    <!-- JUMBOTRON -->
     <div class="jumbotron mt-5">
       <div class="container">
         <h1 class="display-4">About</h1>
       </div>
     </div>
+    <!-- BREADCRUMB -->
     <div class="container">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -73,6 +76,106 @@
           <li class="breadcrumb-item active" aria-current="page">About</li>
         </ol>
       </nav>
+    </div>
+
+    <!-- ACORDION -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/about.jpg" class="img-fluid" alt="Responsive image" />
+        </div>
+        <div class="col-md-6">
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#confiabilidad"
+                    aria-expanded="true"
+                    aria-controls="confiabilidad"
+                  >
+                    Confiabilidad
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="confiabilidad"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit,
+                  reiciendis laborum. Quae, necessitatibus impedit. Doloribus
+                  atque veniam, officiis maiores dolorem nemo sint possimus,
+                  dolores voluptate aliquid minus unde nisi. Laborum, id.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#experiencia"
+                    aria-expanded="false"
+                    aria-controls="experiencia"
+                  >
+                    Experiencia
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="experiencia"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Architecto doloribus consequatur obcaecati officia odio
+                  exercitationem dolorum possimus. Quasi ducimus odit mollitia.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#garantia"
+                    aria-expanded="false"
+                    aria-controls="garantia"
+                  >
+                    Garantia
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="garantia"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita, exercitationem excepturi obcaecati facere unde quia
+                  quasi nulla animi fuga, doloremque minus. Similique, minus
+                  incidunt!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <footer class="mt-5">

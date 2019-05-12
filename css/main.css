@@ -38,3 +38,7 @@ footer a {
   filter: brightness(70%);
   /* opacity: 0.7; */
 }
+
+.multiple {
+  overflow: hidden;
+}

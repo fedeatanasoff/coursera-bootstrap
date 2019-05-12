@@ -39,6 +39,8 @@ footer a {
   /* opacity: 0.7; */
 }
 
-.multiple {
-  overflow: hidden;
+.boton-collapse {
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }

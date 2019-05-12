@@ -102,6 +102,7 @@
         </div>
       </div>
 
+      <!-- HOTELES -->
       <div class="d-flex flex-wrap justify-content-around">
         <!-- producto 1 -->
         <div class=" card card-hotel mb-2 mr-1">
@@ -266,16 +267,24 @@
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
               necessitatibus libero doloribus atque. Reprehenderit, reiciendis
-              alias. Ut perferendis commodi culpa corrupti dolorum nisi
-              similique consequatur. Id veritatis, placeat, odit corrupti, fuga
-              voluptas hic dicta quasi quae vel mollitia laborum optio ducimus!
-              Ad omnis esse quisquam! Praesentium provident quos repellendus
-              molestias!
+              alias. Praesentium provident quos repellendus molestias!
             </p>
           </div>
+          <!-- MODAL BOTON -->
+          <div
+            class="col-md-6 my-5 d-flex align-items-center justify-content-center"
+          >
+            <button
+              type="button"
+              class="btn btn-info btn-lg"
+              data-toggle="modal"
+              data-target="#exampleModal"
+              data-whatever="@mdo"
+            >
+              Contactanos
+            </button>
 
-          <div class="col-md-6 my-5">
-            <div
+            <!-- <div
               class="d-flex flex-column align-items-center justify-content-center"
             >
               <p>
@@ -297,7 +306,7 @@
                   <h6><i class="fas fa-mobile-alt"></i> +54 96325878</h6>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -370,6 +379,63 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL BODY -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contactanos</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="nombre" class="col-form-label">Nombre:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nombre"
+                  placeholder="ingrese aqui su nombre"
+                />
+              </div>
+              <div class="form-group">
+                <label for="mensaje" class="col-form-label">Mensaje:</label>
+                <textarea
+                  class="form-control"
+                  id="mensaje"
+                  placeholder="ingrese aqui su mensaje"
+                ></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Cancelar
+            </button>
+            <button type="button" class="btn btn-info">Enviar</button>
           </div>
         </div>
       </div>

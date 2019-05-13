@@ -27,8 +27,10 @@
     "scss": "node-sass -o css/ css/",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "start": "concurrently \"npm run watch:scss\" \"npm run dev\"",
-    "clean": "rimraf dist/",
-    "imagemin": "imagemin img/** --out-dir dist/img"
+    "clean": "rimraf dist",
+    "imagemin": "imagemin img/** --out-dir dist/img",
+    "usemin": "usemin index.html -d  dist --htmlmin -o dist/index.html && usemin about.html -d  dist --htmlmin -o dist/about.html && usemin precios.html -d  dist --htmlmin -o dist/precios.html && usemin contact.html -d  dist --htmlmin -o dist/contact.html",
+    "build": "npm run clean && npm run scss && npm run imagemin & npm run usemin"
   },
   "repository": {
     "type": "git",

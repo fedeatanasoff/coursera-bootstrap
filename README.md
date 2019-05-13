@@ -13,13 +13,14 @@ npm run dev
 ```
 
 SEMANA 3
-1 - tabs en precios
-2 - ejemplo de collapse en index.html
-3 - accordion en about
-4 - popover en titulo de cada hotel
-5 - modal sobre final de index.html
-6 - formulario de modal en el final de index
-7 - boton en index - contactenos
-8 - carousel en index
-9 - controles de desplazamiento en carousel de index
-10 - scripts en js/main.js
+
+- tabs en precios
+- ejemplo de collapse en index.html
+- accordion en about
+- popover en titulo de cada hotel
+- modal sobre final de index.html
+- formulario de modal en el final de index
+- boton en index - contactenos
+- carousel en index
+- controles de desplazamiento en carousel de index
+- scripts en js/main.js

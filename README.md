@@ -14,3 +14,4 @@ npm run dev
 
 - ejemplo de collapse en index.html
 - ejemplo de multi-collapse en index.html
+- scripts en js/main.js

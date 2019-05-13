@@ -1,0 +1,75 @@
+@negro: #343a40;
+@blanco: #fff;
+@pink: pink;
+@amarillo: #f3a22f;
+@rojo: #ce3930;
+@verde: #278136;
+
+.margenesPadding(@mTop, @mBottom, @pTop, @pBottom) {
+  margin-top: @mTop;
+  margin-bottom: @mBottom;
+  padding-top: @pTop;
+  padding-bottom: @pBottom;
+}
+
+.botonSass(@colorBorde, @colorFondo, @colorTexto) {
+  background-color: @colorFondo;
+  color: @colorTexto;
+  border: 2px solid @colorBorde;
+  font-weight: bold;
+}
+
+.btn-sass {
+  .botonSass(@verde, @rojo, @amarillo);
+}
+
+.ahorra {
+  background-color: @amarillo;
+  .margenesPadding(0, 0, 5rem, 5rem);
+}
+
+.jumbotron {
+  background-color: @negro;
+  border-radius: 0;
+  color: @blanco;
+}
+
+footer {
+  background-color: @negro;
+  color: @blanco;
+  padding: 1rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: @pink;
+}
+
+.card-hotel {
+  display: flex;
+  flex: 1 250px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn-reserva {
+  border-radius: 0;
+}
+
+.banner {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  filter: brightness(70%);
+  .margenesPadding(5rem, 0, 0, 0);
+}
+
+.boton-collapse {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.filtro-img {
+  filter: brightness(50%);
+}

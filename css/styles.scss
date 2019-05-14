@@ -4,6 +4,7 @@ $pink: pink;
 $amarillo: #f3a22f;
 $rojo: #ce3930;
 $verde: #278136;
+$fa-font-path: "~@fortawesome/fontawesome-free-webfonts/webfonts";
 
 @mixin margenesPadding($mTop, $mBottom, $pTop, $pBottom) {
   margin-top: $mTop;
